@@ -13,15 +13,15 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('article-one', function (req, res) {
+app.get('/article-one', function (req, res) {
   res.send('article one is requested and sent\n');
 });
 
-app.get('article-two', function (req, res) {
+app.get('/article-two', function (req, res) {
   res.send('article two is requested and sent\n');
 });
 
-app.get('article-three', function (req, res) {
+app.get('/article-three', function (req, res) {
   res.send('article three is requested and sent\n');
 });
 
