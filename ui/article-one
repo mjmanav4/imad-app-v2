@@ -1,2 +1,14 @@
 <html>
+<head><title>Article one</title>
+</head>
+<body>
+<a href="/">Home</a>
+<hr/>
+<h3>article one</h3>
+<div>
+sep 5 1994
+</div>
+<p>My article on content
+</p>
+</body>
 </html>
